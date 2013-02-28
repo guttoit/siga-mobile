@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="siga.mobile"
+    android:versionCode="1"
+    android:versionName="1.0" >
+ 
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+    
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />   
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="siga.mobile.telas.TelaPrincipal"
+            android:label="@string/title_activity_tela_principal" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="siga.mobile.telas.TelaRota"
+            android:label="@string/title_activity_tela_rota" >
+        </activity>
+        <activity
+            android:name="siga.mobile.telas.TelaEscolheTipoMarcacao"
+            android:label="@string/title_activity_tela_escolhe_tipo_marcacao" >
+        </activity>
+    </application>
+
+</manifest>
