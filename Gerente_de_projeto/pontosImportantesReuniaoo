@@ -1,0 +1,16 @@
+1 - Avisar que o gps está desligado e perguntar se quer ativar
+2 - Dar opção do usuário salvar o arquivo em um bd
+3 - criar a funcionalidade de sempre salvar os arquivos e continuar uma rota já salva
+4 - Fazer as telas usando o modelo wizard
+5 - Criar tela de espera enquanto obtem os dados
+6 - Fazer tratamento de erro durante a comunicação.
+
+Criar diagrama de classes do siga;
+
+Melhoria da usabilidade da aplicação móvel;
+
+Gerenciamento de informações off-line;
+
+Aprimorar a integração entre a aplicação móvel e o servidor;
+
+
